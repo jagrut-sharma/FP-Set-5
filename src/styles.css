@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.non-bullet-list {
+  list-style-type: none;
+  color: green;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.total {
+  color: blue;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.heading {
+  color: red;
+  font-size: 1.8rem;
+}
+
+/* div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-list {
+  color: green;
+  padding: 1rem 0;
+  width: max-content;
+} */
+
+/* div {
+  text-align: center;
+}
+
+div ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.order-list {
+  color: green;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  font-weight: bold;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-order-list {
+  display: inline-block;
+  text-align: left;
+}
+
+.recipe-heading {
+  font-size: 1.2rem;
+}
+
+.recipe-list {
+  padding: 0 0 2rem 0;
+}
